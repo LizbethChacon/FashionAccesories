@@ -1,0 +1,13 @@
+* { outline: 1px solid rgba(255,0,0,0.2);}
+
+$tipografia: "Open Sans", sans-serif;
+
+$color-gris-oscuro:#dfdfdf;
+$color-blanco:#FFFFFF;
+$color-plomo-oscuro:#B5B5B5;
+
+body{
+	background: $color-gris-oscuro;
+	font-family: $tipografia;
+	font-size: 13px;
+}
