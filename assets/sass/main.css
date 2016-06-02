@@ -1,9 +1,141 @@
-* {
-  outline: 1px solid rgba(255, 0, 0, 0.2); }
-
+/**{ outline: 1px solid rgba(255,0,0,0.2);}*/
 body {
-  background: #dfdfdf;
+  background: #FFFFFF;
   font-family: "Open Sans", sans-serif;
   font-size: 13px; }
+
+/* HEADER*/
+.wellcome {
+  background: #dfdfdf; }
+
+.wellcome p {
+  font-size: 50px;
+  font-weight: bold; }
+
+.wellcome li {
+  outline: 1px solid #FFFFFF; }
+
+.portada {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.portada img {
+  height: 120px; }
+
+.menu {
+  background: #dfdfdf;
+  color: #000000; }
+
+/* CONTENT*/
+.hero {
+  height: 500px;
+  overflow: hidden;
+  position: relative; }
+
+.hero .list-slider {
+  display: flex;
+  animation: cambio 30s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out; }
+
+.hero li {
+  height: 500px;
+  padding: 150px 230px; }
+
+.hero .primero {
+  background: url("../images/slider1.jpg"); }
+
+.hero .segundo {
+  background: url("../images/slider2.jpg"); }
+
+.hero .slider {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.hero .box {
+  height: 200px;
+  width: 700px;
+  z-index: 2;
+  text-align: center;
+  padding: 25px;
+  color: #FFFFFF; }
+
+.hero .box h1 {
+  outline: 2px solid #FFFFFF;
+  padding: 25px; }
+
+/*EFECTOS DE SLIDER*/
+@keyframes cambio {
+  0% {
+    margin-left: 0; }
+  20% {
+    margin-left: 0; }
+  25% {
+    margin-left: -100%; }
+  45% {
+    margin-left: -100%; }
+  50% {
+    margin-left: -200%; }
+  70% {
+    margin-left: -200%; }
+  75% {
+    margin-left: -300%; }
+  100% {
+    margin-left: -300%; } }
+.arrivals {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.sale-list {
+  padding-bottom: 40px; }
+
+.sale-items img {
+  width: 100%; }
+
+.clientes {
+  background: url("../images/client-bg.jpg"); }
+
+.clientes img {
+  margin: 20px;
+  width: 150px;
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.catalog-list img {
+  outline: 2px solid #FFFFFF;
+  outline-offset: -10px;
+  width: 180px; }
+
+.blog-items img {
+  width: 100%; }
+
+.blog-detail h5 {
+  font-weight: bold; }
+
+.buy-list {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.buy-items {
+  margin: 20px;
+  outline: 2px solid #dfdfdf; }
+
+.buy-icono {
+  font-size: 30px;
+  padding-top: 20px;
+  border-right: 1px solid #dfdfdf; }
+
+/* FOOTER*/
+.resume {
+  background: #dfdfdf; }
+
+.resume h5 {
+  font-weight: bold; }
+
+.copyright {
+  background: #000000;
+  color: #FFFFFF;
+  padding: 20px; }
 
 /*# sourceMappingURL=main.css.map */
