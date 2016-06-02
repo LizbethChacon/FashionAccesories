@@ -10,9 +10,12 @@ head
 	link(rel="stylesheet", href="../css/bootstrap.min.css")
 	link(rel="stylesheet", href="../css/font-awesome.min.css")
 	link(rel="stylesheet", href="../sass/main.css")
+	link(rel="stylesheet", href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
 
 	script(src="../js/jquery.min.js")
 	script(src="../js/bootstrap.min.js")
+	//script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js")
+	//script(src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js")
 
 body
 	header
@@ -64,9 +67,9 @@ body
 					.col-md-4.text-center
 						img(src="../images/logo.png")
 
-					.col-md-4.text-center
-						input
+					.col-md-4.text-center						
 						span Search
+						input
 						button: i.glyphicon.glyphicon-search
 		.menu
 			.container
@@ -133,36 +136,304 @@ body
 				span(class="glyphicon glyphicon-chevron-right", aria-hidden="true")
 				span.sr-only Next
 
-
-
-
-
-
-
-
-
 		.arrivals
 			.container
+				.row
+					.col-md-5
+						img(src="../images/banner1.jpg")
 
-		.onsale
-			.container
+					.col-md-7
+						img(src="../images/banner2.jpg")
 
-		.branding
+		.sales
 			.container
+				.sale-menu
+					hr
+					span(class="glyphicon glyphicon-chevron-left")
+					ul.nav.nav-pills.list-unstyled
+						li
+							a(href="#") LATEST								
+						li
+							a(href="#") BESTSELLER
+						li
+							a(href="#") SALE					
+					span(class="glyphicon glyphicon-chevron-right")
+					hr
+				.sale-list
+					ul.nav.nav-pills.list-unstyled
+						li.sale-items
+							img(src="../images/a1.jpg")
+							p Deliver Wide
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star-empty
+							i.glyphicon.glyphicon-star-empty
+							p $218.00
+						li.sale-items
+							img(src="../images/b1.jpg")
+							p Deliver Wide
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star-empty
+							i.glyphicon.glyphicon-star-empty
+							p $242.00 - $218.00
+						li.sale-items
+							img(src="../images/c1.jpg")
+							p Deliver Wide
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star-empty
+							i.glyphicon.glyphicon-star-empty
+							p $242.00 - $218.00
+						li.sale-items
+							img(src="../images/d1.jpg")
+							p Deliver Wide
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star
+							i.glyphicon.glyphicon-star-empty
+							i.glyphicon.glyphicon-star-empty
+							p $218.00
+		.clientes
+			.container
+				img(class="cliente", src="../images/client1.jpg")
+				img(class="cliente", src="../images/client2.jpg")
+				img(class="cliente", src="../images/client3.jpg")
+				img(class="cliente", src="../images/client4.jpg")
+				img(class="cliente", src="../images/client5.jpg")
+				img(class="cliente", src="../images/client6.jpg")
 
 		.catalogo
 			.container
+				.catalog-menu
+					hr
+					span(class="glyphicon glyphicon-chevron-left")
+					ul.nav.nav-pills.list-unstyled
+						li
+							a(href="#") CLOTHING							
+						li
+							a(href="#") EQUIPMENTS
+						li
+							a(href="#") JEWELLERY					
+					span(class="glyphicon glyphicon-chevron-right")
+					hr
+				.catalog-list
+					ul.nav.nav-pills.list-unstyled.media-list
+						li.catalog-items.media
+							.item-foto.pull-left.media-left
+								img(class="media-object",src="../images/a2.jpg")
+							.item-detail.media-body
+								p Deliver Wide
+								p $218.00
+								i.glyphicon.glyphicon-star
+								i.glyphicon.glyphicon-star
+								i.glyphicon.glyphicon-star
+								i.glyphicon.glyphicon-star-empty
+								i.glyphicon.glyphicon-star-empty
+								a
+									i.glyphicon.glyphicon-shopping-cart
+									p Add to Cart
+						li.catalog-items.media
+							.item-foto.pull-left.media-left
+								img(src="../images/d2.jpg")
+							.item-detail.media-body
+								p Deliver Wide
+								p $218.00
+								i.glyphicon.glyphicon-star
+								i.glyphicon.glyphicon-star
+								i.glyphicon.glyphicon-star
+								i.glyphicon.glyphicon-star-empty
+								i.glyphicon.glyphicon-star-empty
+								a
+									i.glyphicon.glyphicon-shopping-cart
+									p Add to Cart
+						li.catalog-items.media
+							.item-foto.pull-left.media-left
+								img(src="../images/g2.jpg")
+							.item-detail.media-body
+								p Deliver Wide
+								p $218.00
+								i.glyphicon.glyphicon-star
+								i.glyphicon.glyphicon-star
+								i.glyphicon.glyphicon-star
+								i.glyphicon.glyphicon-star-empty
+								i.glyphicon.glyphicon-star-empty
+								a
+									i.glyphicon.glyphicon-shopping-cart
+									p Add to Cart
+						li.catalog-items.media
+							.item-foto.pull-left.media-left
+								img(src="../images/c2.jpg")
+							.item-detail.media-body
+								p Deliver Wide
+								p $218.00
+								i.glyphicon.glyphicon-star
+								i.glyphicon.glyphicon-star
+								i.glyphicon.glyphicon-star
+								i.glyphicon.glyphicon-star-empty
+								i.glyphicon.glyphicon-star-empty
+								a
+									i.glyphicon.glyphicon-shopping-cart
+									p Add to Cart
+						li.catalog-items.media
+							.item-foto.pull-left.media-left
+								img(src="../images/f2.jpg")
+							.item-detail.media-body
+								p Deliver Wide
+								p $218.00
+								i.glyphicon.glyphicon-star
+								i.glyphicon.glyphicon-star
+								i.glyphicon.glyphicon-star
+								i.glyphicon.glyphicon-star-empty
+								i.glyphicon.glyphicon-star-empty
+								a
+									i.glyphicon.glyphicon-shopping-cart
+									p Add to Cart
+						li.catalog-items.media
+							.item-foto.pull-left.media-left
+								img(src="../images/e2.jpg")
+							.item-detail.media-body
+								p Deliver Wide
+								p $218.00
+								i.glyphicon.glyphicon-star
+								i.glyphicon.glyphicon-star
+								i.glyphicon.glyphicon-star
+								i.glyphicon.glyphicon-star-empty
+								i.glyphicon.glyphicon-star-empty
+								br
+								a
+									i.glyphicon.glyphicon-shopping-cart
+									p Add to Cart
+
 
 		.blog
 			.container
-
+				.blog-menu
+					hr
+					span(class="glyphicon glyphicon-chevron-left")
+					ul.nav.nav-pills.list-unstyled
+						li
+							a(href="#") BLOG					
+					span(class="glyphicon glyphicon-chevron-right")
+					hr
+				.blog-list
+					ul.nav.nav-pills.list-unstyled
+						li.blog-items
+							.blog-foto
+								img(src="../images/blog2.jpg")
+							.blog-detail
+								h5 THE SAMPLE HEADING TITLE
+								p 27/11/2015
+								p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quas voluptatibus repellat ea ...
+								a
+									p Read more...
+						li.blog-items
+							.blog-foto
+								img(src="../images/blog1.jpg")
+							.blog-detail
+								h5 THE SAMPLE HEADING TITLE
+								p 27/11/2015
+								p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quas voluptatibus repellat ea ...
+								a
+									p Read more...
+						li.blog-items
+							.blog-foto
+								img(src="../images/blog2.jpg")
+							.blog-detail
+								h5 THE SAMPLE HEADING TITLE
+								p 27/11/2015
+								p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quas voluptatibus repellat ea ...
+								a
+									p Read more...
+						li.blog-items
+							.blog-foto
+								img(src="../images/blog3.jpg")
+							.blog-detail
+								h5 THE SAMPLE HEADING TITLE
+								p 27/11/2015
+								p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quas voluptatibus repellat ea ...
+								a
+									p Read more...
 		.buynow
 			.container
-
+				.row.buy-list
+					.col-md-4
+						.buy-items
+							.buy-icono
+								i.glyphicon.glyphicon-earphone
+							.buy-detail
+								h4 ORDER ONLINE NOW
+								p Call us: (0123) 456789
+					.col-md-4
+						.buy-items
+							.buy-icono
+								i.glyphicon.glyphicon-plane
+							.buy-detail
+								h4 FREE WORLWIDE SHIPPING
+								p On Order Over $100
+					.col-md-4
+						.buy-items
+							.buy-icono
+								i.glyphicon.glyphicon-usd
+							.buy-detail
+								h4 30 DAYS MONEY BACK 100%
+								p Satisfaction Guarantee
 	footer
 		.resume
 			.container
-
+				.row
+					.col-md-3
+						h5 ACCESORIES
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. At obcaecati pariatur animi accusamus dolor voluptatem ratione eaque sed nisi, ex expedita magni eos ipsum laboriosam ab quaerat sapiente aperiam possimus?
+						.iconos
+							i facebook
+							i twiter
+							i skype
+					.col-md-6
+						.row
+							.col-md-4
+								h5 MY ACCOUNT
+								ul
+									li My Account
+									li Order History
+									li Wish List
+									li Newsletter
+							.col-md-4
+								h5 INFORMATION
+								ul
+									li About Us
+									li Delivery Information
+									li Privacy Policy
+									li Terms & Conditions
+							.col-md-4
+								h5 EXTRAS
+								ul
+									li Brands
+									li Gifts Vouchers
+									li Affiliates
+									li Specials
+					.col-md-3
+						h5 ABOUT US
+							ul.list-unstyled
+								li
+									i.glyphicon.glyphicon-map-marker
+									p 8901 Marmosr Broad, Glagow DO 89
+									p GR, New York
+								li
+									i.glyphicon.glyphicon-earphone
+									p (0123) 456789
+									p (0987) 654321
+								li
+									i.glyphicon.glyphicon-envelope
+									p admin@bootexperts.com
 		.copyright
 			.container
+				.row
+					.col-md-8
+						p Copyright©2015 BootExperts All rights reserved.
+					.col-md-4
+						img(src="../images/payment.png")
 
