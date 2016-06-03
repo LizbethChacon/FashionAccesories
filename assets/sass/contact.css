@@ -1,0 +1,68 @@
+/**{ outline: 1px solid rgba(255,0,0,0.2);}*/
+body {
+  background: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px; }
+
+.contactanos {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: url("../images/escritorio.jpg");
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  color: #FFFFFF; }
+
+.contacts {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.contact-title {
+  background: #DF6767;
+  font-weight: bold;
+  padding: 10px; }
+
+.contact-title p {
+  font-size: 50px; }
+
+.contact-info {
+  margin: 20px;
+  margin-left: 50px; }
+
+.ubicanos {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.map {
+  margin-right: 10px; }
+
+.map img {
+  width: 100%; }
+
+.formato input {
+  border: none;
+  width: 100%;
+  height: 40px;
+  background: #dfdfdf;
+  padding: 10px;
+  margin-bottom: 20px; }
+
+.formato textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  background: #dfdfdf; }
+
+.boton-ubicanos .btn {
+  width: 100px;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 13px;
+  background: #595353;
+  margin-bottom: 20px; }
+
+.boton-ubicanos .btn:hover {
+  background: rgba(0, 0, 0, 0.5); }
+
+/*# sourceMappingURL=contact.css.map */
