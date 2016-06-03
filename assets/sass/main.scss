@@ -36,6 +36,10 @@ body{
 	background: $color-gris-oscuro;
 	color: $color-negro;
 }
+.menu a:hover{
+	background: $color-rosado;
+	background: rgba(0, 0, 0, 0.5);
+}
 
 /* CONTENT*/
 
@@ -95,6 +99,9 @@ body{
 .arrivals{
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+.sale-menu {
+	margin-left: 100px;
 }
 .sale-list{
 	padding-bottom: 40px;

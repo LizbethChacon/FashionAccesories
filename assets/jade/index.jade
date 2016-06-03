@@ -57,10 +57,11 @@ body
 		.portada
 			.container
 				.row
-					.col-md-3
-						i.glyphicon.glyphicon-time
-						p OPENING TIME
-						span 9.00AM - 10.00PM
+					.col-md-3.media
+						i.glyphicon.glyphicon-time.media-left
+						.media-body
+							p OPENING TIME
+							span 9.00AM - 10.00PM
 					.col-md-6.text-center
 						img(src="../images/logo.png")
 					.col-md-3.text-center
@@ -79,7 +80,7 @@ body
 						nav.collapse.navbar-collapse
 							ul.nav.navbar
 								li.dropdown
-									a(href="#", class="dropdown-toggle", data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") My Cart
+									a(href="#", class="dropdown-toggle", data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") MY CART
 										i.glyphicon.glyphicon-shopping-cart
 										span.caret
 									ul.dropdown-menu
@@ -137,17 +138,15 @@ body
 						img(src="../images/banner2.jpg")
 		.sales
 			.container
-				.sale-menu
+				.sale-menu.text-center
 					hr
-					span(class="glyphicon glyphicon-chevron-left")
 					ul.nav.nav-pills.list-unstyled
 						li
 							a(href="#") LATEST						
 						li
 							a(href="#") BESTSELLER
 						li
-							a(href="#") SALE					
-					span(class="glyphicon glyphicon-chevron-right")
+							a(href="#") SALE
 					hr
 				.sale-list
 					.row
@@ -201,17 +200,15 @@ body
 				img(class="cliente", src="../images/client6.jpg")
 		.catalogo
 			.container
-				.catalog-menu
+				.catalog-menu.text-center
 					hr
-					span(class="glyphicon glyphicon-chevron-left")
 					ul.nav.nav-pills.list-unstyled
 						li
 							a(href="#") CLOTHING					
 						li
 							a(href="#") EQUIPMENTS
 						li
-							a(href="#") JEWELLERY					
-					span(class="glyphicon glyphicon-chevron-right")
+							a(href="#") JEWELLERY
 					hr
 				.catalog-list
 					.row
@@ -313,13 +310,11 @@ body
 											p Add to Cart
 		.blog
 			.container
-				.blog-menu
+				.blog-menu.text-center
 					hr
-					span(class="glyphicon glyphicon-chevron-left")
 					ul.nav.nav-pills.list-unstyled
 						li
-							a(href="#") BLOG					
-					span(class="glyphicon glyphicon-chevron-right")
+							a(href="#") BLOG
 					hr
 				.blog-list
 					.row
